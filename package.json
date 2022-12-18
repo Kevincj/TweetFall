@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "framer-motion": "^7.10.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hover-video-player": "^9.7.1",
     "react-scripts": "^2.1.3",
     "web-vitals": "^3.1.0"
   },
@@ -37,7 +43,7 @@
     ]
   },
   "description": "This project is a React-based web application that displays Twitter contents in a waterfall style. Since Twitter's recommendation system almost breaks due to layoffs, Twitter web and iOS applications are flooded with NONSENSE ads and boring tweets. As my first step, I design a web-based application to develop my own recommendation system (without ML) and will further extend its features, e.g., mutli-platform support and ml support.",
-  "main": "index.js",
+  "main": "index.jsx",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kevincj/TweetFall.git"
@@ -49,6 +55,6 @@
   },
   "homepage": "https://github.com/Kevincj/TweetFall#readme",
   "devDependencies": {
-    "prettier": "2.8.1"
+    "prettier": "^2.8.1"
   }
 }
