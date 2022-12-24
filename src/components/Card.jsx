@@ -10,7 +10,7 @@ export default function TweetCard(props) {
   console.log(props);
   if (props.type === "image") {
     return (
-      <Card sx={{ maxWidth: 400, borderRadius: 3, margin: "0.3em" }}>
+      <Card sx={{ maxWidth: 600, borderRadius: 3, margin: "0.3em" }}>
         <CardHeader
           action={
             <IconButton aria-label="settings">
@@ -21,7 +21,7 @@ export default function TweetCard(props) {
               />
             </IconButton>
           }
-          title={props.username}
+          title={props.author}
           titleTypographyProps={{ fontSize: "0.8rem" }}
           //   sx={{ height: 20, padding: "10px" }}
         />
@@ -36,7 +36,7 @@ export default function TweetCard(props) {
     );
   } else {
     return (
-      <Card sx={{ maxWidth: 400, borderRadius: 3, margin: "0.3em" }}>
+      <Card sx={{ maxWidth: 600, borderRadius: 3, margin: "0.3em" }}>
         <CardHeader
           action={
             <IconButton aria-label="settings">
@@ -47,7 +47,7 @@ export default function TweetCard(props) {
               />
             </IconButton>
           }
-          title={props.username}
+          title={props.author}
           titleTypographyProps={{ fontSize: "0.8rem" }}
           //   sx={{ height: 20, padding: "10px" }}
         />
