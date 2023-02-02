@@ -7,7 +7,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import IconButton, { IconButtonProps } from "@mui/material/IconButton";
 import React from "react";
 export default function TweetCard(props) {
-// console.log(props);
+console.log(props);
   if (props.type === "image") {
     return (
       <Card sx={{ maxWidth: 600, borderRadius: 3, margin: "0.3em" }}>
@@ -55,7 +55,7 @@ export default function TweetCard(props) {
           key={props.index}
           component="video"
           image={props.url}
-		  poster={props.previewUrl}
+		  poster={props.preview}
           controls
 		  preload="none"
         />
